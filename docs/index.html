@@ -538,12 +538,19 @@
       </div>
     </main>
 
-    <!-- Quick Deployment Info -->
+    <!-- Quick Cloud Deployment Info -->
     <section class="deployment-guide">
-      <h3>🚀 Need to Deploy the Backend?</h3>
-      <p>This GitHub Pages installer generates manifest links for any deployed instance of the addon backend. You can self-host via Docker, Render, Railway, or your local machine:</p>
-      <p><code>docker run -d -p 7000:7000 marcjuhl/stremio-archive-addon:latest</code></p>
-      <p>View the source code, Docker instructions, and local setup guide on <a href="https://github.com/marcjuhl/stremio-archive-addon" target="_blank" style="color: #a78bfa; text-decoration: underline;">GitHub Repository</a>.</p>
+      <h3>☁️ Don't Want to Host Locally? 1-Click Free Cloud Deployment</h3>
+      <p>Deploy the addon backend online for free in 60 seconds with 24/7 uptime, automated HTTPS, and zero maintenance. Click below to deploy directly from this GitHub repository:</p>
+      <div style="display: flex; gap: 0.85rem; margin: 1rem 0; flex-wrap: wrap; align-items: center;">
+        <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmarcjuhl%2Fstremio-archive-addon" target="_blank">
+          <img src="https://vercel.com/button" alt="Deploy with Vercel" style="height: 32px; border-radius: 4px;">
+        </a>
+        <a href="https://render.com/deploy?repo=https://github.com/marcjuhl/stremio-archive-addon" target="_blank">
+          <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" style="height: 32px;">
+        </a>
+      </div>
+      <p>Once deployed, paste your new cloud URL (e.g. <code>https://your-addon.vercel.app</code>) into the <strong>Addon Backend Server URL</strong> field above!</p>
     </section>
 
     <footer class="footer">

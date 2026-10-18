@@ -136,6 +136,23 @@ npm test
 
 ---
 
+## ☁️ 1-Click Free Cloud Deployment (No Local Server Needed)
+
+You do not need to keep a local computer or home server running. You can deploy this addon to leading free serverless cloud platforms directly from this repository:
+
+| Platform | Deployment Type | 1-Click Deploy Link |
+|---|---|---|
+| **Vercel** | Serverless Node.js (24/7, Global CDN, Free) | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmarcjuhl%2Fstremio-archive-addon) |
+| **Render** | Cloud Web Service (Automated Git sync, Free) | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/marcjuhl/stremio-archive-addon) |
+
+### How It Works:
+1. Click either **Deploy with Vercel** or **Deploy to Render**.
+2. Sign in with GitHub and authorize the project creation.
+3. Your cloud provider will automatically build and deploy the addon, generating a permanent HTTPS URL (e.g. `https://your-addon.vercel.app` or `https://stremio-archive.onrender.com`).
+4. Open the [GitHub Pages Install Screen](https://marcjuhl.github.io/stremio-archive-addon/), input your new cloud URL, configure your credentials, and install directly into Stremio!
+
+---
+
 ## 🐳 Docker Deployment
 
 The included `Dockerfile` builds a production image based on `node:20-alpine` with an integrated healthcheck and unprivileged `node` user execution.
